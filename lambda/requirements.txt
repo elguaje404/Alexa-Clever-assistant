@@ -1,0 +1,3 @@
+ask-sdk-core
+google-generativeai
+python-dotenv
