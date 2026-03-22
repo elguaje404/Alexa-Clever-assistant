@@ -10,8 +10,8 @@ SERVO es una Alexa Skill privada que conecta un dispositivo Echo con la API de G
 
 SERVO es un asistente de voz construido sobre Alexa, pero con el cerebro de Gemini. A diferencia de Alexa estándar, SERVO puede razonar, analizar y responder preguntas complejas gracias al modelo de lenguaje de Google. La identidad del sistema está inspirada en la estética digital de Tron y Matrix.
 
-- **Nombre del asistente:** SERVO
-- **Nombre del usuario:** Prímus
+- **Nombre del asistente:** SERVO (del latín servir)
+- **Nombre del usuario:** Prímus (del latín "el primero")
 - **Invocation name:** "unidad servo"
 - **Idioma:** Español (España)
 
@@ -63,7 +63,7 @@ SERVO es un asistente de voz construido sobre Alexa, pero con el cerebro de Gemi
 1. Entra en [developer.amazon.com/alexa/console/ask](https://developer.amazon.com/alexa/console/ask) con el **mismo email** de tu Echo
 2. Clic en **Create Skill**
 3. Configura:
-   - **Skill name:** Servo
+   - **Skill name:** Servo 
    - **Primary locale:** Spanish (ES)
    - **Model:** Custom
    - **Hosting:** Alexa-hosted (Python)
@@ -84,7 +84,6 @@ SERVO es un asistente de voz construido sobre Alexa, pero con el cerebro de Gemi
 1. Ve a la pestaña **Code**
 2. Abre `lambda/lambda_function.py` y reemplaza con el contenido de este repositorio
 3. Abre `lambda/requirements.txt` y déjalo vacío (no se necesitan dependencias externas)
-4. Crea el archivo `lambda/.env` con tu API key:
 
 ```
 GOOGLE_API_KEY=tu_api_key_aqui
