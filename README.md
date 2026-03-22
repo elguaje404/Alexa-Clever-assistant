@@ -28,6 +28,7 @@ SERVO es un asistente de voz construido sobre Alexa, pero con el cerebro de Gemi
 - **AWS Lambda Alexa-hosted** — Ejecuta el código Python (gratuito, gestionado por Amazon)
 - **Gemini API** — Genera las respuestas de IA (capa gratuita de Google)
 
+![Esquema del workflow](servo_architecture.svg)
 ---
 
 ## Costes
