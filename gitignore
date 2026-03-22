@@ -1,0 +1,12 @@
+# API keys y variables de entorno — nunca subir al repositorio
+lambda/.env
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Sistema
+.DS_Store
+Thumbs.db
