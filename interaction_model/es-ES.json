@@ -1,0 +1,35 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "unidad servo",
+      "intents": [
+        {
+          "name": "GeminiIntent",
+          "slots": [
+            {
+              "name": "pregunta",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "dime {pregunta}",
+            "explícame {pregunta}",
+            "qué sabes sobre {pregunta}",
+            "analiza {pregunta}",
+            "responde {pregunta}",
+            "pregunta {pregunta}",
+            "busca {pregunta}",
+            "cuéntame sobre {pregunta}",
+            "necesito saber {pregunta}",
+            "información sobre {pregunta}"
+          ]
+        },
+        { "name": "AMAZON.HelpIntent", "samples": [] },
+        { "name": "AMAZON.CancelIntent", "samples": [] },
+        { "name": "AMAZON.StopIntent", "samples": [] },
+        { "name": "AMAZON.NavigateHomeIntent", "samples": [] }
+      ],
+      "types": []
+    }
+  }
+}
